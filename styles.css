@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-app {
+    color: #ffff;
+    background: #00bfa5;
+}
+
+.container {
+    margin: 0 10px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.title-app {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    font-size: 20px;   
+}
+
+.branch-menu {
+    margin-left: 25px;
+    list-style: none;
+}
+
+.nav-app {
+    background: #00bfa5;
+    box-shadow: 2px 11px 6px -4px rgba(0,0,0,0.5);
+}
+
+.nav-list {
+    margin: 0 5px;
+    padding-top: 5px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.list-branch {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.list-branch a {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.active {
+    border-bottom: 2px solid #ffff;
+}
+
+.fa-camera {
+    font-size: 22px;
+}
